@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', Arial, Sans serif;
+}
+
+header {
+    
+    height: 80vh;
+
+    background: url(assets/banner-header.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.logo_starwars {
+
+    width: 65vw;
+    height: 30vh;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    
+}
+
+.logo_starwars img {
+    width: 340px;
+}
+
+.create_your_legion {
+    width: 10vw;
+    height: 20vh;
+
+    position: absolute;
+
+    bottom: 1rem;
+    right: 10rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.create_your_legion h2 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 400;
+}
+
+.create_your_legion h2 span {
+    font-weight: 700;
+    margin-left: .4rem;
+}
+
+.create_your_legion .border {
+    border: 1px solid #000;
+    background: #000;
+    width: 10vw;
+    margin: 1rem 0 1rem 0;
+}
+
+.pag {
+    width: 10vw;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.pag p {
+    font-size: 1rem;
+    margin-right: .8rem;
+
+}  
+
+.pag p span {
+    font-size: .8rem;
+}   
+
+.pag button {
+    width: 10px;
+    height: 10px;
+    font-weight: 600;
+
+    background: #ccc;
+    border: none;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: .2rem;
+}
+
+.kylo_ren--header {
+    width: 900px;
+
+    position: absolute;
+    bottom: -7rem;
+    left: 12rem;
+}
+
+
+/* main */
