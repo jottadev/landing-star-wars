@@ -7,8 +7,12 @@
     font-family: 'Open Sans', Arial, Sans serif;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 header {
-    
+    width: 100vw;
     height: 80vh;
 
     background: url(assets/banner-header.png);
@@ -109,12 +113,211 @@ header {
 }
 
 .kylo_ren--header {
-    width: 900px;
+    width: 58vw;
 
     position: absolute;
     bottom: -7rem;
     left: 12rem;
+
+    z-index: 1;
 }
 
 
 /* main */
+
+
+.container_about_game {
+    width: 100vw;
+    height: 150vh;
+    border: 1px solid red;
+
+    background: url(assets/background-main.png) #fff;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container_start_game {
+    width: 75vw;
+    height: 73vh;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+
+    z-index: 999;
+
+    border: 1px solid red;
+
+}
+
+.box-start-game {
+    width: 17vw;
+    height: 52vh;
+
+    position: relative;
+}
+
+.start_game {
+    width: 17vw;
+    height: 55vh;
+
+    background: url(assets/strom-trupe-red.png) red;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    position: absolute;
+    top: -4rem;
+}
+
+.start_game h2 {
+    width: 9vw;
+    color: #fff;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    z-index: 999;
+}
+
+.start_game p {
+    width: 14vw;
+    color: #fff;
+    font-size: 0.8rem;
+    text-align: justify;
+    font-weight: 200;
+}
+
+.start_game a {
+    color: #fff;
+    border: 2px solid #fff;
+    text-decoration: none;
+    padding: .5rem 1.5rem .5rem 1.5rem;
+    border-radius: 5px;
+}
+
+
+.about-game {
+    width: 52vw;
+    height: 46vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end; 
+}
+
+.text_about {
+    height: 26vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    margin-right: 1rem;
+}
+
+.text_about  h2{
+    text-transform: uppercase;
+}
+
+.text_about  span{
+    width: 10vw;
+    background: #000;
+    height: 2px;
+}
+
+.text_about  p{
+    text-align: right;
+}
+
+.about-game img{
+    width: 20vw;
+}
+
+
+
+
+
+
+.structure_of_game {
+    width: 75vw;
+    height: 73vh;
+    border: 1px solid red;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.structure_of_game .menu {
+    border: 1px solid red;
+
+    width: 45vw;
+    height: 60vh;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.structure_of_game .menu h2 {
+    font-size: 2rem;
+    height: 10vh;
+    text-transform: uppercase;
+}
+
+.structure_of_game .menu h2 span {
+    margin-left: .5rem;
+    font-weight: bolder;
+}
+
+.structure_of_game .menu ul {
+    height: 50vh;
+    border: 1px solid red;
+    width: 30vw;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.structure_of_game .menu nav li {
+    list-style: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+
+.structure_of_game .menu nav li a{
+    color: #000;
+    text-decoration: none;
+    background: #fff;
+}
+
+
+.character_lord_sifh{
+    width: 35vw;
+    position: absolute;
+    left: 1px;
+    bottom: -3rem;
+}
+
+.character_rey {
+    width: 17vw;
+    position: absolute;
+    right: 1px;
+    bottom: -3rem;
+}
