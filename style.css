@@ -126,10 +126,11 @@ header {
 /* main */
 
 
+/* Comece a jogar */
+
 .container_about_game {
     width: 100vw;
     height: 150vh;
-    border: 1px solid red;
 
     background: url(assets/background-main.png) #fff;
     background-repeat: no-repeat;
@@ -143,7 +144,7 @@ header {
 
 .container_start_game {
     width: 75vw;
-    height: 73vh;
+    height: 60vh;
 
     display: flex;
     flex-direction: row;
@@ -152,9 +153,6 @@ header {
     justify-content: space-around;
 
     z-index: 999;
-
-    border: 1px solid red;
-
 }
 
 .box-start-game {
@@ -245,14 +243,13 @@ header {
 }
 
 
-
+/* Estrutura do Jogo */
 
 
 
 .structure_of_game {
     width: 75vw;
-    height: 73vh;
-    border: 1px solid red;
+    height: 75vh;
 
     display: flex;
     justify-content: center;
@@ -261,10 +258,9 @@ header {
 }
 
 .structure_of_game .menu {
-    border: 1px solid red;
 
-    width: 45vw;
-    height: 60vh;
+    width: 40vw;
+    height: 65vh;
 
     display: flex;
     align-items: flex-end;
@@ -273,9 +269,11 @@ header {
 }
 
 .structure_of_game .menu h2 {
-    font-size: 2rem;
-    height: 10vh;
+    font-size: 2.5rem;
+
+    width: 15vw;
     text-transform: uppercase;
+    text-align: right;
 }
 
 .structure_of_game .menu h2 span {
@@ -285,39 +283,101 @@ header {
 
 .structure_of_game .menu ul {
     height: 50vh;
-    border: 1px solid red;
-    width: 30vw;
+    width: 22vw;
 
     display: flex;
     align-items: flex-end;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-direction: column;
+
 }
 
 .structure_of_game .menu nav li {
     list-style: none;
-    font-size: 1.2rem;
-    text-transform: uppercase;
+    width: 30vw;
+    text-align: right;
 }
 
 
 .structure_of_game .menu nav li a{
+    display: inline-block;
+    width: 22vw;
     color: #000;
     text-decoration: none;
     background: #fff;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 500;
 }
+
+.structure_of_game .menu nav li a:hover{
+    color: #fff;
+    background: rgb(255, 0, 0);
+}
+
 
 
 .character_lord_sifh{
     width: 35vw;
     position: absolute;
     left: 1px;
-    bottom: -3rem;
+    bottom: -5rem;
 }
 
 .character_rey {
     width: 17vw;
     position: absolute;
-    right: 1px;
-    bottom: -3rem;
+    right: 2px;
+    bottom: -5rem;
+}
+
+.border-main {
+    width: 75vw;
+    background: #000;
+    height: 3px;
+}
+
+
+/* Atributos */
+
+.container_attributes {
+
+    width: 100vw;
+    height: 150vh;
+
+
+    background: rgb(51, 51, 51);
+}
+
+.attributes {
+    border: 1px solid red;
+
+    color: #fff;
+
+    width: 80vw;
+    height: 70vh;
+
+
+}
+
+.fig-attributes {
+
+    border: 1px solid red;
+    width: 79vw;
+    height: 50vh;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.fig1 {
+    width: 400px;
+}
+
+.fig2, .fig3, .fig4, .fig5 {
+    width: 270px;
 }
