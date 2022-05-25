@@ -51,7 +51,7 @@ header {
     position: absolute;
 
     bottom: 1rem;
-    right: 10rem;
+    right: 15rem;
 
     display: flex;
     flex-direction: column;
@@ -269,7 +269,7 @@ header {
 }
 
 .structure_of_game .menu h2 {
-    font-size: 2.5rem;
+    font-size:  rem;
 
     width: 15vw;
     text-transform: uppercase;
@@ -321,14 +321,14 @@ header {
     width: 35vw;
     position: absolute;
     left: 1px;
-    bottom: -5rem;
+    bottom: -6rem;
 }
 
 .character_rey {
     width: 17vw;
     position: absolute;
     right: 2px;
-    bottom: -5rem;
+    bottom: -6rem;
 }
 
 .border-main {
@@ -343,28 +343,40 @@ header {
 .container_attributes {
 
     width: 100vw;
-    height: 150vh;
 
-
-    background: rgb(51, 51, 51);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .attributes {
-    border: 1px solid red;
 
     color: #fff;
 
-    width: 80vw;
-    height: 70vh;
+    width: 100vw;
+    height: 90vh;
 
+
+    background: rgb(51, 51, 51);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
 }
 
-.fig-attributes {
+.attributes h2 {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 2rem;
+    width: 80vw;
+}
 
-    border: 1px solid red;
-    width: 79vw;
-    height: 50vh;
+.fig-attributes {
+    width: 80vw;
+    height: 60vh;
 
     display: flex;
     flex-direction: row;
@@ -373,11 +385,88 @@ header {
     justify-content: center;
 }
 
-
-.fig1 {
-    width: 400px;
+.img-max {
+    width: 45vw;
+    height: 55vh;
 }
 
-.fig2, .fig3, .fig4, .fig5 {
-    width: 270px;
+.img-max figure {
+    width: 100%;
+}
+
+.img-max figure img {
+    width: 100%;
+    height: 55vh;
+}
+
+.img-min{
+    width: 35vw;
+    height: 55vh;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.img-min figure {
+    width: 17.5vw;
+    height: 27.5vh;
+}
+
+.img-min figure img {
+    width: 100%;
+    height: 27.5vh;
+}
+
+/* Hierarchy */
+
+.hierarchy {
+
+    color: #fff;
+
+    width: 100vw;
+    height: 150vh;
+
+    background: rgb(51, 51, 51);
+
+    display: flex;
+    justify-content: d=flex-start;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.hierarchy figure {
+    width: 80vw;
+}
+
+.hierarchy figure img {
+    width: 100%;
+
+}
+
+.about_of_hierarchy {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 8vh;
+    margin-bottom: 5rem;
+
+    width: 80vw;
+}
+
+.about_of_hierarchy p {
+    width: 35vw;
+    font-size: .8rem;
+    text-align: right;
+    
+}
+
+.how_to_play {
+    text-align: center;
+}
+
+.how_to_play h2 {
+    text-transform: uppercase;
+    font-size: 2rem;
 }
