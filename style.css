@@ -117,7 +117,7 @@ header {
 
     position: absolute;
     bottom: -112px;
-    left: 192px;
+    left: 12.5vw;
 
     z-index: 1;
 }
@@ -240,6 +240,7 @@ header {
 }
 
 .text_about  p{
+    font-size: .9rem;
     text-align: right;
 }
 
@@ -273,22 +274,13 @@ header {
 }
 
 .structure_of_game .menu h2 {
-    width: 15vw;
-
     font-size:  2.3rem;
     text-transform: uppercase;
     text-align: right;
 }
 
-.structure_of_game .menu h2 span {
-    margin-left: .5rem;
-    font-weight: bolder;
-}
-
 .structure_of_game .menu ul {
     height: 50vh;
-    width: 22vw;
-
     display: flex;
     align-items: flex-end;
     justify-content: space-evenly;
@@ -550,6 +542,7 @@ header {
 footer {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .download-app {
@@ -654,7 +647,7 @@ footer {
 }
 
 .rihts_the_game img {
-    width: 540px;
+    width: 34vw;
 
     top: -100px;
     left: -145px;
