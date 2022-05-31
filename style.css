@@ -42,7 +42,7 @@ header {
 .create_your_legion {
     position: absolute;
 
-    bottom: 10%;
+    bottom: 5%;
     right: 20%;
 }
 
@@ -74,7 +74,7 @@ header {
     background: url(assets/background-main.png) #fff;
     background-repeat: no-repeat;
     background-position: left;
-    background-size: cover;
+    background-size: contain 100%;
 
     display: flex;
     align-items: center;
@@ -221,19 +221,19 @@ header {
 
 
 .character_lord_sifh{
-    width: 50%;
+    width: 600px;
 
     position: absolute;
     left: 1px;
-    bottom: -96px;
+    bottom: -20%;
 }
 
 .character_rey {
-    width: 25%;
+    width: 300px;
 
     position: absolute;
-    right: 2px;
-    bottom: -96px;
+    right: -20px;
+    bottom: -20%;
 }
 
 .border-main {
@@ -331,7 +331,7 @@ header {
     color: #fff;
 
     display: flex;
-    justify-content: d=flex-start;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
 }
@@ -377,7 +377,7 @@ header {
 
 .steps_to_play {
     width: 100vw;
-    height: 70vh;
+    height: 50vh;
 
 
     display: flex;
@@ -391,7 +391,7 @@ header {
     width: 25vw;
 
     position: absolute;
-    top: -200px;
+    bottom: 30%;
     left: 100px;
 }
 
@@ -543,15 +543,15 @@ footer {
 
 .rihts_the_game p {
     width: 25vw;
-    font-size: .9rem;
+    font-size: .8rem;
 
 }
 
 .rihts_the_game img {
-    width: 34vw;
+    width: 32vw;
 
     bottom: 10%;
-    left: -145px;
+    left: -24%;
     position: absolute;
 
 }
@@ -560,55 +560,25 @@ footer {
 
 /* Responsive */
 
-
-@media(max-width: 1300px) {
-
-    .about_of_hierarchy {
-        margin-bottom: 4.5rem;
-
-    }
-
-    .text_about  p{
-        font-size: .8rem;
-    }
-  
-}
-
-@media (max-width: 1250px) {
-
-    .container_start_game {
-        height: 60vh;
-    }
-
-    .about-game {
-        height: 40vh;
-    }
-}
-
-@media (max-width: 1210px) {
-
-    .about-game {
-        height: 38vh;
-    }
-
-    .container_start_game {
-        height: 50vh;
-    }
-    
-    .about_of_hierarchy p {
-       font-size: .7rem; 
-    }
-}
-
 @media (max-width: 1080px) {
 
+    .box-start-game img {
+        width: 19vw;
+        
+        position: absolute;
+        top: -120px;
+    }
 
     .kylo_ren--header {
         top: 55px; 
     }
 
     .about-game {
-        height: 31vh;
+        height: 25vh;
+    }
+
+    .text_about {
+        height: 20vh;
     }
 
     .container_start_game {
@@ -626,7 +596,7 @@ footer {
     }
 
     .hierarchy {
-        height: 135vh;
+        height: 120vh;
     }
 
     .steps_to_play img{
@@ -645,8 +615,6 @@ footer {
          font-size: .6rem;
     }
 
-
-
     .container_logo--footer p{
         font-size: .7rem;
     }
@@ -662,9 +630,41 @@ footer {
     .container_logo--footer img{
         width: 220px;
     }
+
+    .character_lord_sifh{
+        width: 550px;
+    
+        position: absolute;
+        left: -50px;
+        bottom: -30%;
+    }
+    
+    .character_rey {
+        width: 280px;
+    
+        position: absolute;
+        right: -80px;
+        bottom: -30%;
+    }
+
+    .rihts_the_game img {
+        width: 45vw;
+    
+        bottom: 10%;
+        left: -35%;
+        position: absolute;
+    
+    }
 }
 
 @media(max-width: 1000px) {
+
+    .box-start-game img {
+        width: 100%;
+        
+        position: absolute;
+        top: -50px;
+    }
 
     .about-game {
         height: 29vh;
@@ -679,7 +679,7 @@ footer {
     }
 }
 
-@media (max-width: 960px) {
+@media (max-width: 950px) {
     .rihts_the_game p {
         font-size: .8rem;
     
@@ -703,12 +703,20 @@ footer {
     }
 
     .hierarchy {
-        height: 120vh;
+        height: 110vh;
     }
 
     .logo_app img{
         width: 120px;
-     }
+    }
+
+    .character_rey {
+        width: 280px;
+    
+        position: absolute;
+        right: -80px;
+        bottom: -30%;
+    }
 }
 
 
@@ -746,7 +754,7 @@ footer {
 
     .text_about {
         width: 40vw;
-        height: 26vh;
+        height: 21vh;
     }
 
     .about-game {
@@ -844,9 +852,9 @@ footer {
     }
 
     .rihts_the_game img {
-        width: 35vw;   
-        left: 300px;
-        top: -150px;
+        width: 45vw;   
+        left: 35%;
+        top: -70%;
         position: absolute;
     }
 
@@ -867,12 +875,88 @@ footer {
     .border_footer {
         width: 50vw;
     }
+
+    .character_lord_sifh{
+        width: 500px;
+    }
+    
+    .character_rey {
+        width: 250px;
+    }
 }
+
+@media (max-width: 850px){
+    .character_lord_sifh{
+        width: 380px;
+        left: -10px;
+    }
+    
+    .character_rey {
+        width: 200px;
+        right: -25px;
+    }
+
+    .hierarchy {
+        height: 100vh;
+    }
+}
+
+
+@media (max-width: 800px){
+    .rihts_the_game img {
+        width: 45vw;   
+        left: 35%;
+        top: -60%;
+        position: absolute;
+    }
+
+
+    .structure_of_game {
+        background: #fff;
+        width: 100vw;
+        height: 100vh;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .character_lord_sifh{
+        width: 450px;
+    
+        position: absolute;
+        left: 20px;
+        bottom: -7%;
+    }
+    
+    .character_rey {
+        width: 230px;
+    
+        position: absolute;
+        right: 10px;
+        bottom: -7%;
+    }
+
+    .hierarchy {
+        height: 90vh;
+    }
+
+}
+
 
 @media (max-width: 750px){
 
     .hierarchy {
-        height: 110vh;
+        height: 100vh;
+    }
+    
+    .download-app {
+        height: 100vh;
+    }
+
+    .rihts_the_game img {
+        top: -45%;
 
     }
 }
@@ -885,6 +969,7 @@ footer {
         top: -180px;
         left: -110px;
     }
+
     .list_steps_to_play li {
         width: 25vw;
         text-align: center;
@@ -892,6 +977,47 @@ footer {
 
     .rihts_the_game img {
         left: 270px;
+    }
+
+    .hierarchy {
+        height: 90vh;
+    }
+
+    .container_about_game {
+        height: 150vh;
+    }
+
+    .box-start-game img {
+        width: 30vw;
+     }
+
+    .container_start_game {
+        height: 85vh;
+    }
+    .box-start-game {
+        height: 45vh;
+    }
+
+    .about-game {
+        height: 22vh;
+    }
+
+    .structure_of_game {
+        height: 70vh;
+    }
+
+    .character_lord_sifh{
+        width: 380px;   
+    }
+    
+    .character_rey {
+        width: 190px;
+    }
+
+    
+    .structure_of_game .menu ul {
+        width: 60vh;
+        height: 40vh;
     }
 }
 
@@ -903,16 +1029,14 @@ footer {
     }
 
     .list_steps_to_play {
-        width: 80vw;
+        width: 50vw;
         height: 100vh;
     
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        align-items: center;
+        align-items: flex-end;
         justify-content: center;
-
-    
     }
 
     .list_steps_to_play a {
@@ -920,10 +1044,10 @@ footer {
     }
 
     .steps_to_play img{
-        width: 55vw;
+        width: 80vw;
     
-        top: -60px;
-        left: -170px;
+        top: -70px;
+        left: -220px;
     }
 
     .how_to_play h2 {
@@ -936,12 +1060,18 @@ footer {
     }
 
     .hierarchy {
-        height: 100vh;
-
+        height: 80vh;
     }
 
     .logo_app {
         width: 45vw;
+    }
+
+    .rihts_the_game img {
+        width: 45vw;   
+        left: 35%;
+        top: -40%;
+        position: absolute;
     }
       
 }
@@ -961,6 +1091,23 @@ footer {
         width: 45vw;   
         left: 220px;
     }
+
+    .character_lord_sifh{
+        width: 350px;
+    
+        position: absolute;
+        left: 20px;
+        bottom: -7%;
+    }
+    
+    .character_rey {
+        width: 180px;
+    
+        position: absolute;
+        right: 2px;
+        bottom: -7%;
+    }
+
 
 }
 
@@ -1058,6 +1205,13 @@ footer {
 
     .about-game img{
         width: 33vw;
+    }
+
+    .rihts_the_game img {
+        width: 55vw;   
+        left: 35%;
+        top: -40%;
+        position: absolute;
     }
 
 }
