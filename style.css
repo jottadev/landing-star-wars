@@ -7,7 +7,7 @@
     font-family: 'Open Sans', Arial, Sans serif;
 }
 
-body {
+body, html {
     overflow-x: hidden;
 }
 
@@ -99,7 +99,6 @@ header {
     width: 17vw;
     height: 52vh;
 
-
     position: relative;
 }
 
@@ -135,7 +134,6 @@ header {
     justify-content: space-around;
 
     margin-right: 1rem;
-
 }
 
 .text_about  h2{
@@ -430,6 +428,10 @@ header {
    font-weight: 200;
    text-transform: uppercase;
    text-decoration: none;
+}
+
+.list_steps_to_play a:hover {
+    box-shadow: inset 0 0 0 50px #ff0000;
 }
 
 .list_steps_to_play p {
@@ -826,7 +828,7 @@ footer {
 
     .download-app {
         width: 100vw;
-        height: 120vh;
+        height: 100vh;
     
         background: rgb(251, 59, 38);
     
@@ -852,9 +854,9 @@ footer {
     }
 
     .rihts_the_game img {
-        width: 45vw;   
+        width: 40vw;   
         left: 35%;
-        top: -70%;
+        top: -45%;
         position: absolute;
     }
 
@@ -904,9 +906,9 @@ footer {
 
 @media (max-width: 800px){
     .rihts_the_game img {
-        width: 45vw;   
+        width: 40vw;   
         left: 35%;
-        top: -60%;
+        top: -45%;
         position: absolute;
     }
 
@@ -959,9 +961,23 @@ footer {
         top: -45%;
 
     }
+
+    .steps_to_play img{
+        width: 40vw;
+    
+        top: -180px;
+        left: -130px;
+    }
 }
 
 @media (max-width: 700px){
+
+    .rihts_the_game img {
+        width: 40vw;   
+        left: 30%;
+        top: -45%;
+        position: absolute;
+    }
 
     .steps_to_play img{
         width: 37vw;
