@@ -1187,7 +1187,6 @@ footer {
 
     .hierarchy {
         height: 80vh;
-
     }
 
     .how_to_play h2 {
@@ -1262,7 +1261,7 @@ footer {
 }
     
 
-@media(max-width: 410px){
+@media(max-width: 400px){
 
     .kylo_ren--header {
         top: 20px; 
@@ -1386,6 +1385,107 @@ footer {
 
     .text_about  h2{
         font-size: 1rem;
+    }
+
+    .attributes {
+        height: 130vh;
+    
+    }
+
+    .fig-attributes {
+        height: 100vh;
+    }
+
+    .img-max {
+        width: 60vw;
+        height: 20vh;
+    }
+
+    
+    .img-max figure img {
+        height: 20vh;
+    }
+    
+    .img-min{
+        width: 60vw;
+        height: 100vh;
+    }
+    
+    .img-min figure {
+        width: 60vw;
+        height: 20vh;
+    }
+    
+    .img-min figure img {   
+        height: 20vh;
+    }
+
+    .hierarchy {
+        justify-content: center;
+
+        height: 65vh;
+    }
+
+    .hierarchy p {
+        width: 60vw;;
+    }
+
+    .how_to_play {
+        width: 100vw;
+        text-align: center;
+        background: rgb(51, 51, 51);
+    
+    }
+
+
+    .download-app {
+        border: 1px solid rgba(0, 98, 255, 0.275);
+    }
+
+    .container_app {
+        text-align: center;
+        width: 70vw;
+    }
+
+    .container_logo--footer {
+        width: 70vw;
+    }
+
+    .border_footer {
+        width: 70vw;
+    }
+
+    .container_app h2 {
+        width: 70vw;
+    }
+
+    .rihts_the_game img {
+        width: 75vw;   
+        left: 10%;
+        top: -30%;
+        position: absolute;
+    }
+
+    .steps_to_play {
+        height: 80vh;
+    }
+
+    .list_steps_to_play {
+        width: 75vw;
+        height: 80vh;
+    }
+
+    .list_steps_to_play li {
+        width: 36vw;
+        height: 22vh;
+    }
+
+
+    .steps_to_play img{
+        width: 100vw;
+    
+        top: -70px;
+        left: -170px;
     }
 }
 
